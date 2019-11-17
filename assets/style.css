@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    background-image: url(/assets/images/crowd.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.button {
+    font-family: 'Anton', sans-serif;
+    background: #841328;
+    border-radius: 50%;
+    color: whitesmoke;
+    display: table;
+    height: 200px;
+    font-weight: bold;
+    font-size: 3.5em;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color 0.2s ease-in;
+    -webkit-user-select: none;      
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+}
+
+.button:hover {
+    background-color: #ce2444;
+}
+
+.button:active {
+  background-color: #072432;
+  box-shadow: 0 5px #2bb2df8f;
+  transform: translateY(4px);
+  transition: none;
+}
