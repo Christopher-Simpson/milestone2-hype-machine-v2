@@ -48,7 +48,7 @@ the gig was last night and I am knocking this README out just before submitting.
 
 Before I gave up on my rugby card game project the last thing I was looking at was the .mousedown event in the Jquery documentation. I thought if I could just make an app
 that could use that function to play a sound and combined with a .mouseup to stop and reset the sound I could have an air horn that I could play like and instrument 
-in software form on my phone and use it for my gig that evening. 
+in software form on my phone and use it for my gig that evening and it will take at least one line of jQuery to create!
 
 So what I coded is now what you are looking at as my project submission. It has HTML, CSS and JQuery. It is based on combining two different jQuery events .mousedown and .mouseup
 on .mousedown the function will fire and audio element. On .mouseup the element will stop and reset to 0.
@@ -56,3 +56,7 @@ on .mousedown the function will fire and audio element. On .mouseup the element 
 The effect is that if you hold the button down the full air horn sound will play out until it stops. If you release the button the sound stops immediately. When the button is 
 pressed again the sound will play from the start. This allows for rythmic pulsing of the soundbite and can be played in time to music or in stacatto blasts to grab the attention
 of an audience. I call it the Hype Machine v2 because I became aware of a similar hardware product also called Hype Machine just before I left my computer to go to work.
+
+I was very excited to use the product I just created. But it turns out that it does not respond the way I want it to on mobile devices. It is so slow as to be almost completely
+broken. I think that would be because I would need to add in some functiionality to make the mobile browser wait for the sound to load first before firing the play function.
+Well I hope to be able understand enough about javascript and jquery soon so I can fix it.
